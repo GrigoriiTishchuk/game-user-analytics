@@ -15,7 +15,6 @@ users = pd.DataFrame({
 data = []
 for _, row in users.iterrows():
     n_sessions = np.random.randint(1, 10)
-
     for i in range(n_sessions):
         event_date = row["install_date"] + pd.to_timedelta(i, unit="D")
         # retention effect (Group B slightly better)
