@@ -41,7 +41,7 @@ for group in ["A","B"]:
     filtered_data = df[df["ab_group"]==group]
     ab.append({
         "Group": group,
-        "D7 Ret": retention(filtered_data,7),
+        "D7 Retention": retention(filtered_data,7),
         "Engagement Conversion": engagement_conversion(filtered_data),
         "Purchase Conversion": purchase_conversion(filtered_data),
         "ARPU": arpu(filtered_data)
