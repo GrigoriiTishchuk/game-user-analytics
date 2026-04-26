@@ -7,7 +7,7 @@ The project demonstrates how data can be used to evaluate **player engagement, m
 
 ## Link to the dashboard
 
-- [text](https://game-user-analytics-9vgfcal9dkrcxjos2wrybj.streamlit.app)
+- [Link to dashboard](https://game-user-analytics-9vgfcal9dkrcxjos2wrybj.streamlit.app)
 
 ## Overview
 
